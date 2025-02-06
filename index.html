@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Generador de Invitaciones</title>
+    <title>MJAD3</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <img id="invitacion-template" src="invitacion.png" alt="Invitación">
     <div class="container">
-        <h1>¡Crea tu Invitación!</h1>
-        <img id="invitacion-template" src="invitacion.png" alt="Invitación">
+        <h1>¡Invita a un adolescente!</h1>
         <img id="invitacion-preview" src="invitacion.png" alt="Invitación">
 
         <div class="form">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" placeholder="Tu nombre" maxlength="36"><br><br>
+            <input type="text" id="nombre" placeholder="Nombre del(la) invitado(a)" maxlength="36"><br><br>
 
             <label for="fecha">Fecha:</label>
             <input type="date" id="fecha"><br><br>
@@ -21,10 +21,12 @@
             <input type="time" id="hora"><br><br>
 
             <label for="lugar">Lugar:</label>
-            <input type="text" id="lugar" placeholder="Lugar del evento" maxlength="24"><br><br>
+            <input type="text" id="lugar" placeholder="Lugar del evento" maxlength="36"><br><br>
 
             <button onclick="generarInvitacion()">Generar Invitación</button>
         </div>
+
+
     </div>
 
     <script src="script.js"></script>
